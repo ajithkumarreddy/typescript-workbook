@@ -1,1 +1,1 @@
-@ sample file
+# A typescript basics workbook

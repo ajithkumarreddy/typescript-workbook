@@ -1,0 +1,19 @@
+// objects
+
+let user: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: {
+    description: string;
+    id: number;
+  };
+} = {
+  name: "Hanuman",
+  age: 38,
+  hobbies: ["sports", "cooking"],
+  role: {
+    description: "admin",
+    id: 124,
+  },
+};
