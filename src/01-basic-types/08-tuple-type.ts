@@ -1,4 +1,5 @@
-// Generic Array type
+// A tuple is a fixed-length array where each element can have a different type.
+
 let sample: [number, number];
 
 sample = [2, 3];

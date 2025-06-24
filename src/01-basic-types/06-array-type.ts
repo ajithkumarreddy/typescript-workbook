@@ -11,3 +11,6 @@ let sample: (string | number)[];
 hoobies = ["Sports", "cooking"];
 
 hoobies.push("chess");
+
+// nested arrays
+let tags: string[][] = [["a", "b"], ["a"]];
