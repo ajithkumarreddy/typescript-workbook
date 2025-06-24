@@ -1,5 +1,5 @@
 // type inference
-let userId = 32;
+let userId = 32; // type assignment
 
 // ...
 
