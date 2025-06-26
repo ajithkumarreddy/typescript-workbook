@@ -1,4 +1,6 @@
-// enum type
+/* enum type
+enum (short for enumeration) is a way to define a named set of constant values.
+*/
 
 enum Role {
   Admin, // 0

@@ -1,6 +1,5 @@
-// objects
-
-let user: {
+// object type
+let user: { // inline object type
   name: string;
   age: number;
   hobbies: string[];
@@ -17,3 +16,51 @@ let user: {
     id: 124,
   },
 };
+
+// optional properties
+type User = { // named object type
+  name: string;
+  age?: number; // optional
+};
+
+const user1: User = {
+  name: "Alex",
+};
+const user2: User = {
+  name: "Alex",
+  age: 20,
+};
+
+// readonly properties
+type config = {
+  readonly apikey: string;
+};
+
+const conf: config = { apikey: "123abc" };
+// conf.apikey = "456dfc"; not-allowed
+
+
+// named object type using interface
+interface product {
+  name: string;
+  price: number;
+}
+
+// nested object types
+type Address = {
+  city: string;
+  zip: string;
+}
+
+type Customer = {
+  name: string;
+  address: Address;
+}
+
+const customer: Customer = {
+  name: "Alex",
+  address: {
+    city: "london",
+    zip: "123",
+  }
+}
